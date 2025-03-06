@@ -5,13 +5,13 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 ## Summary of Learnings
 
 ### Understanding Components
-- Created an **Angular component** to manage books (`BookComponent`).
-- Used **two-way data binding** with `ngModel` to handle user input.
-- Implemented **event binding** to add and remove books dynamically.
+- Created an --**Angular component**--- to manage books (`BookComponent`).
+- Used --**two-way data binding**-- with `ngModel` to handle user input.
+- Implemented --**event binding**-- to add and remove books dynamically.
 
 ### Local Storage Implementation
 - Stored book data persistently using `localStorage`.
-- Loaded saved books from `localStorage` on initialization (`ngOnInit`).
+- Loaded saved books from `localStorage` on initialization --(`ngOnInit`)--.
 - Updated `localStorage` every time a book is added or removed.
 
 ### Book Component Structure
