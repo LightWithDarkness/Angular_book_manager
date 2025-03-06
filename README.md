@@ -2,6 +2,29 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
 
+## Summary of Learnings
+
+### Understanding Components
+- Created an **Angular component** to manage books (`BookComponent`).
+- Used **two-way data binding** with `ngModel` to handle user input.
+- Implemented **event binding** to add and remove books dynamically.
+
+### Local Storage Implementation
+- Stored book data persistently using `localStorage`.
+- Loaded saved books from `localStorage` on initialization (`ngOnInit`).
+- Updated `localStorage` every time a book is added or removed.
+
+### Book Component Structure
+#### `book.component.ts`
+- **Manages book state**: Stores books as an array and handles user input.
+- **Implements CRUD operations**: Users can add and delete books.
+- **Persists data**: Saves and retrieves books from `localStorage`.
+
+#### `book.component.html`
+- **Input fields for book title and author**.
+- **Button to add books to the list**.
+- **List that displays books with a delete button**.
+
 ## Development server
 
 To start a local development server, run:
@@ -28,7 +51,7 @@ ng generate --help
 
 ## Building
 
-To build the project run:
+To build the project, run:
 
 ```bash
 ng build
